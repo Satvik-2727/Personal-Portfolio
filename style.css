@@ -1,0 +1,123 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    background-color: rgb(25, 22, 39);
+    height: 285vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbaritems{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+.Logo{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+#header nav{
+    background-color: rgb(25, 22, 39);
+    height: 18vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+#header nav li{
+    display: inline-block;
+    margin: 0.7%;
+    padding: 1%;
+    border-radius: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+#header img {
+    vertical-align: middle;
+    width: 136px;
+    height: 70px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
+/* .header nav ul li:hover{
+       background-color: white; 
+} */
+#header nav ul li a:hover{
+    color: rgb(83,70,218);
+}
+.name{
+    color:white ;
+    font-family: 'Poppins',sans-serif;
+    position: absolute;
+    left: 36vw;
+    top: 27.5vh;
+    font-size: 4.7rem;
+    font-weight: 500;
+}
+.introdescription{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.7rem;
+    position: relative;
+    left: 33vw;
+    top:48vh;
+    display: inline-block;
+    width: 200%;
+}
+#aboutme{
+    position: absolute;
+    top: 120vh;
+}
+.myphoto{
+    position: relative;
+    top: 20vh;
+    margin-left: 10vw;
+    border-radius: 10px;
+}
+.heading{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    bottom: 32vh;
+    left: 14vw;
+    font-size: 2.7rem;
+}
+.description{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    bottom: 20vh;
+    left: 34vw;
+    font-size: 0.7em;
+    width: 40vw;
+}
+/* .satvikSkillsAround{
+    height: 200px;
+    position: absolute;
+    left: 48vw;
+} */
+/* CSS For responsiveness */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
