@@ -1,0 +1,120 @@
+/* Remove Scroll bar */
+
+.project1::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.project1 {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* Main CSS */
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project1{
+    position: absolute;
+    background-color: rgb(39, 34, 63);
+    height: 88vh;
+    width: 63vw;
+    left: 16vw;
+    top: 5vh;
+    border-radius: 30px;
+    overflow-y: auto;
+    scrollbar-width: 0;
+}
+.p1heading{
+    color: white;
+    font-family: 'Source Code Pro',monospace;
+    position: relative;
+    top: 6vh;
+    left: 17vw;
+    font-size: 2.3rem;
+}
+.p1language{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    position:relative;
+    top: 15vh;
+    left: 4vw;
+    font-size: 1.3rem;
+    display: inline-block;
+}
+.python{
+    color: rgb(255, 255, 65);
+    position: relative;
+    left: 3vw;
+    font-family: 'Source Code Pro',monospace;
+}
+.p1GUI{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size:1.3rem;
+    position:relative;
+    top: 17vh;
+    left: 4vw;
+}
+#openButton {
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(39, 34, 63);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.guiNo{
+    color: white;
+    font-family: 'Source Code Pro',monospace;
+    font-size:1.3rem;
+    position:relative;
+    top: 17vh;
+    left: 10.7vw;
+}
+.githublink{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    position: relative;
+    top: 20vh;
+    left: 9vw;
+}
+.github{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    position: relative;
+    top: 20vh;
+    left: 4vw;
+}
+.description{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    top: 23vh;
+    left: 4vw;
+    display: inline-block;
+    width: 50vw;
+}
+.descriptioncontent{
+    font-size: 1.3rem;
+    font-family: 'Source Code Pro',monospace;
+}
+.commands{
+    font-family: 'Source Code Pro',monospace;
+    font-size: 1.3rem;
+    /* margin: 4vh; */
+}

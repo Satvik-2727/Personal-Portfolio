@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+#projectsheading{
+    color: white;
+    position: absolute;
+    top: 26vh;
+    left: 33vw;
+    font-size: 3rem;
+    font-family: 'Source Code Pro',monospace;
+}
+.Madeword{
+    color: yellow;
+    position: relative;
+    top: 26vh;
+    left: 52vw;
+    font-size: 3rem;
+    font-family: 'Source Code Pro',monospace;
+}
+#projects{
+    position: absolute;
+    top: 320vh;
+}
+.project1{
+    background-color: rgb(39, 34, 63);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    position:relative;
+    top: 34vh;
+    height: 52vh;
+    width: 26.5vw;
+    margin-left: 5vw;
+}
+.p1heading{
+    font-family: 'Source Code Pro',monospace;
+    color: white;
+    display: inline-block;
+    margin-top: 5vh;
+    margin-left: 7vw;
+}
+.p1language{
+    color: white;
+    position: relative;
+    top: 6vh;
+    left: 2vw;
+    margin: 0.6vw;
+}
+.python{
+    color: yellow;
+    position: relative;
+    left: 2vw;
+}
+.p1GUI{
+    color: white;
+    position: relative;
+    top: 11vh;
+    right: 9vw;
+}
+.guiNo{
+    margin-left: 3vw;
+    position: relative;
+    left: 2.5vw;
+}
+.description{
+    position: relative;
+    top: 18vh;
+    left: -16.5vw;
+    color: white;
+}
+.descriptioncontent{
+    font-family: 'Source Code Pro',monospace;
+    position: relative;
+    left: 17vw;
+    color: white;
+}
+.readMore{
+    color: white;
+}
