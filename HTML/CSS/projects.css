@@ -99,3 +99,14 @@
     top: -70vh;
     margin-left: 8vw;
 }
+.otherprojects{
+    font-family: 'Source Code Pro',monospace;
+    height: 10vh;
+    width: 10vw;
+    position: relative;
+    top: 420vh;
+    left: 18vw;
+    border-radius: 5vh;
+    background-color: rgb(39, 34, 63);
+    color: white;
+}
