@@ -74,8 +74,28 @@
 .readMore{
     color: white;
 }
+.readMoree{
+    color: white;
+}
 .project2{
+    background-color: rgb(39, 34, 63);
+    border-radius: 10px;
     position: relative;
-    left: 30vw;
+    left: 60vw;
     top: -18vh;
+    margin-right: 10vw;
+    height: 52vh;
+    width: 26.5vw;
+    margin-left: 5vw;
+}
+.project3{
+    background-color: rgb(39, 34, 63);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    position:relative;
+    height: 52vh;
+    width: 26.5vw;
+    left: 27vw;
+    top: -70vh;
+    margin-left: 8vw;
 }
