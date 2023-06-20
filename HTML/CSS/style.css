@@ -34,7 +34,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
 }
 #header nav li{
     display: inline-block;
@@ -70,10 +70,10 @@ body{
     font-family: 'Poppins',sans-serif;
     font-size: 0.7rem;
     position: relative;
-    left: 33vw;
-    top:48vh;
+    left: 35vw;
+    top:53vh;
     display: inline-block;
-    width: 200%;
+    width: 40%;
 }
 #aboutme{
     position: absolute;
@@ -125,3 +125,55 @@ body{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+@media screen and (max-width:600px){
+    #header nav{
+        width: 45%;
+    }
+    .Logo{
+        font-size: 0.8rem;
+    }
+    .navbaritems{
+        font-size: 0.5rem;
+    }
+    .name{
+        position: absolute;
+        left: 27vw;
+        top: 27.5vh;
+        font-size: 2.8rem;
+        font-weight: 500;
+    }
+    .introdescription{
+        font-size: 0.7rem;
+        position: relative;
+        left: 15vw;
+        top:48vh;
+        display: inline-block;
+        width: 200%;
+    }
+    #aboutme{
+        position: absolute;
+        top: 80vh;
+    }
+    .myphoto{
+        position: relative;
+        top: 20vh;
+        margin-left: 10vw;
+        border-radius: 10px;
+        height: 17vh;
+    }
+    .heading{
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        position: relative;
+        bottom: 5vh;
+        left: 14vw;
+        font-size: 1.9rem;
+    }
+    .aboutmedescription{
+        position: relative;
+        top: 4vh;
+        left: 50vw;
+        font-size: 0.6rem;
+        width: 45vw;
+    }
+}
