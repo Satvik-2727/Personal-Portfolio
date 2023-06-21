@@ -162,3 +162,125 @@
     top: 4vh;
     right: 2.5vw;
 }
+
+/* CSS for responsivness */
+@media screen and (max-width:600px){
+    #skills{
+        position: absolute;
+        top:130vh;
+    }
+    .headingskills{
+        font-size: 1.9rem;
+        position: relative;
+        top: 25vh;
+        left: 16vw;
+    }   
+    .headingabilities{
+        font-size: 1.9rem;
+        position: relative;
+        top: 25vh;
+        left: 17vw;
+    }
+    .Python{
+        height: 8vh;
+        position: relative;
+        left: 1.5vw;
+        top: 2.1vh;
+        display: inline-block;
+    }
+    .pycontainer{
+        position: relative;
+        top: 30vh;
+        height: 12vh;
+        width: 25.5vw;
+        left: 10vw;
+    }
+    .pyname{
+        font-size: 0.8rem;
+        position: relative;
+        top: 4vh;
+        left: 5.4vw;
+    }
+    .csscontainer{
+        height: 12vh;
+        width: 25.5vw;
+        top: 18vh;
+        left: 39vw;
+    }
+    .css{
+        height: 8vh;
+        position: relative;
+        left: 4.3vw;
+        top: 2vh;
+        display: inline-block;
+    }
+    .cssname{
+        font-size: 0.8rem;
+        position: relative;
+        top: 6.7vh;
+        right: 8vw;
+    }
+    .gitcontainer{
+        position: relative;
+        bottom: 12vh;
+        height: 12vh;
+        width: 25.5vw;
+        left: 70vw;
+        top: 6vh;
+    }
+    .git{
+        height: 8vh;
+        position: relative;
+        left: 2.5vw;
+        top: 2vh;
+        display: inline-block;
+    }
+    .gitname{
+        font-size: 0.8rem;
+        position: relative;
+        top: 4vh;
+        left: 5vw;
+    }
+    .githubcontainer{
+        position: relative;
+        bottom: 36vh;
+        height: 12vh;
+        width: 25.5vw;
+        left: 10vw;
+        top: 15vh;
+    }
+    .github{
+        height: 8vh;
+        position: relative;
+        left: 2.7vw;
+        top: 2.5vh;
+        display: inline-block;
+    }
+    .githubname{
+        font-size: 0.8rem;
+        position: relative;
+        top: 4vh;
+        left: 6.6vw;
+    }
+    .htmlcontainer{
+        position: relative;
+        bottom: 60vh;
+        height: 12vh;
+        width: 25.5vw;
+        left: 40vw;
+        top: 3vh;
+    }
+    .html{
+        height: 9vh;
+        position: relative;
+        left: 1.9vw;
+        top: 1.1vh;
+        display: inline-block;
+    }
+    .htmlname{
+        font-size: 0.8rem;
+        position: relative;
+        top: 3vh;
+        left: 8.5vw;
+    }
+}
