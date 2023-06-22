@@ -110,3 +110,96 @@
     background-color: rgb(39, 34, 63);
     color: white;
 }
+
+@media screen and (max-width: 600px){
+    #projects{
+        position: absolute;
+        top: 187vh;
+    }   
+    #projectsheading{
+        position: absolute;
+        top: 28vh;
+        left: 18vw;
+        font-size: 1.7rem;
+    }
+    .Madeword{
+        position: relative;
+        top: 28vh;
+        left: 59vw;
+        font-size: 1.7rem;
+    }
+    .project1{
+        position:relative;
+        top: 40vh;
+        height: 36vh;
+        width: 81.5vw;
+        margin-left: 10vw;
+    }
+    .p1heading{
+        margin-top: 4vh;
+        margin-left: 7vw;
+        position: relative;
+        left: 10vw;
+    }
+    .p1language{
+        position: relative;
+        top: 2.4vh;
+        left: 2vw;
+        margin: 0.6vw;
+    }
+    .python{
+        position: relative;
+        left: 2vw;
+    }
+    .p1GUI{
+        position: relative;
+        top: 6vh;
+        right: 33vw;
+    }
+    .guiNo{
+        margin-left: 3vw;
+        position: relative;
+        left: 2.5vw;
+    }
+    .description{
+        position: relative;
+        top: 3vh;
+        left: -51.5vw;
+        width: 50vw;
+    }
+    .descriptioncontent{
+        position: relative;
+        left: 54vw;
+    }
+    .project2{
+        position:relative;
+        top: 60vh;
+        height: 36vh;
+        width: 81.5vw;
+        left: 5vw;
+    }
+    .description{
+        position: relative;
+        top: 10vh;
+        left: -51.5vw;
+        width: 50vw;
+    }
+    .descriptioncontent{
+        position: relative;
+        left: 54vw;
+    }
+    .project3{
+        position:relative;
+        top: 80vh;
+        height: 36vh;
+        width: 81.5vw;
+        left: 3vw;
+    }
+    .otherprojects{
+        height: 6vh;
+        width: 35vw;
+        position: relative;
+        top: 385vh;
+        left: 30vw;
+    }
+}
