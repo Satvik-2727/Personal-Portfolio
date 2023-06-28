@@ -264,6 +264,8 @@
         position: relative;
         top: 6vh;
         left: 2.5vw;
+        display: block;
+        
     }
     .descriptioncontent{
         display: inline-block;
@@ -271,7 +273,7 @@
         left: 0.7vw;
         top: 1vh;
         font-size: 0.9rem;
-        width: fit-content;
+        width: 70vw;
         text-overflow: hidden;
     }
     .project3{
